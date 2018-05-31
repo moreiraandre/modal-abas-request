@@ -1,0 +1,39 @@
+{
+  "name": "modal-abas-request",
+  "version": "1.0.0",
+  "description": "Multi modal abas request",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moreiraandre/modal-abas-request.git"
+  },
+  "keywords": [
+    "modal",
+    "abas",
+    "request"
+  ],
+  "author": "André Moreira <andre.mcx1@gmail.com> (https://github.com/moreiraandre)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moreiraandre/modal-abas-request/issues"
+  },
+  "homepage": "https://github.com/moreiraandre/modal-abas-request#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "browser-sync": "^2.24.4",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.1",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.4"
+  }
+}
