@@ -44,7 +44,8 @@ dos que apontam para **#** e dos que abrem uma nova página:
 
 Comando | Ação
 --------|-----
-addItem(title, content) | Adiciona nova aba recebendo o titulo da aba e o conteúdo.
+setTitleModal | Altera o título do modal
+addItem(title, content) | Adiciona nova aba recebendo o titulo da aba e o conteúdo
 lenght | Total de abas
 remove | Remove a última aba
 show | Exibe o modal
