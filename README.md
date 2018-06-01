@@ -24,7 +24,7 @@ necessidade de escrever qualquer outro código javascript para executar as requi
 
 ### Instalando
 
-[![Latest version](https://www.npmjs.com/package/modal-abas-request)][npm-package]
+[npm](https://www.npmjs.com/package/modal-abas-request)
 
 **npm i modal-abas-request**
 
