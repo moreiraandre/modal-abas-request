@@ -23,6 +23,11 @@ necessidade de escrever qualquer outro código javascript para executar as requi
 *Espero não ter complicado muito :sweat_smile: Estou a disposição para dúvidas.*
 
 ### Instalando
+
+[![Latest version](https://www.npmjs.com/package/modal-abas-request)][npm-package]
+
+**npm i modal-abas-request**
+
 Baixe a biblioteca e faça a chamada do arquivo:
 ```html
 <script type="text/javascript" src="modal-abas-request.js"></script>
