@@ -1,5 +1,5 @@
 # modal-abas-request
-###Gestão de abas no modal e requisições web.
+### Gestão de abas no modal e requisições web.
 
 Diante da dificuldade de abrir listagens, formulários ou telas em geral sem perder a tela atual do navegador e 
 trabalhanmdo com o mesmo modal iniciei então esse projeto que visa abrir qualquer tela dentro do modal trabalhando com o
@@ -22,16 +22,16 @@ necessidade de escrever qualquer outro código javascript para executar as requi
 
 *Espero não ter complicado muito :) Estou a disposição para dúvidas.*
 
-###Instalando
+### Instalando
 Baixe a biblioteca e faça a chamada do arquivo:
 ```html
 <script type="text/javascript" src="modal-abas-request.js"></script>
 ```
 
-###Iniciando
+### Iniciando
 Após incluir o arquivo **modal-abas-request.js** o bjeto ModalAR estara disponível para uso.
 
-####Exibindo o modal
+#### Exibindo o modal
 Basta adicionar a classe **btn-modalar** ao seu link que o conteúdo será carregda na primeira aba do modal, e o título 
 da aba será o texto do link. Após a abertura do modal todos os demais links serão abertos em uma nova aba, com excessão
 dos que apontam para **#** e dos que abrem uma nova página:
@@ -40,7 +40,7 @@ dos que apontam para **#** e dos que abrem uma nova página:
 <a href="http://google.com" target="_blank">Google</a> 
 ```
 
-####Métodos
+#### Métodos
 
 Comando | Ação
 --------|-----
